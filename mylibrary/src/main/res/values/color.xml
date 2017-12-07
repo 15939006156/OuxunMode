@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="bg">#f6f6f6</color>
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="main_line">#F0F0F0</color>
+    <color name="main_text333">#333333</color>
+    <color name="main_text666">#666666</color>
+    <color name="main_text999">#999999</color>
+    <color name="main_textccc">#cccccc</color>
+    <color name="transparent_black">#75000000</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="listview_driver">#eeeeee</color>
+    <color name="stagView_driver">#f0f0f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorAccent">#8bef1b2c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="SelectColor">#059ee6</color>
+    <color name="TitleColor">#66acee</color>
+
+    <!--主题颜色-->
+    <color name="title_bg">#d44444</color>
+    <color name="main_orange">#FF4400</color>
+    <color name="tab_text_press">#d44444</color>
+    <color name="main_name_blue">#FF31A5EC</color>
+    <color name="yellow">#e5a545</color>
+    <color name="ticket_blue">#07A0DC</color>
+</resources>

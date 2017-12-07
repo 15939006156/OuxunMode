@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_centerInParent="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxWidth="30dp"
+        android:maxHeight="30dp"/>
+    <TextView
+        android:layout_below="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在玩命加载中,请勿骚动...."
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="@android:color/tertiary_text_light"
+        />
+</RelativeLayout>

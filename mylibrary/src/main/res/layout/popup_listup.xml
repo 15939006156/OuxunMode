@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchWrap.Vertical">
+    <!--android:background="#b0000000"-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_list_view"
+        style="@style/MatchWrap"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

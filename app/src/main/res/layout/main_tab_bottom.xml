@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/main_line" />
+
+    <LinearLayout
+      style="@style/MatchMatch.Horizontal"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            style="@style/Buttom_Item_Style">
+
+            <ImageView
+                android:id="@+id/img_maintab_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/maintab_1_check" />
+
+            <TextView
+                android:id="@+id/text_maintab_1"
+                style="@style/WrapWrap"
+                android:layout_marginTop="1dp"
+                android:text="首页"
+                android:textColor="@color/tab_text_press"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            style="@style/Buttom_Item_Style">
+
+            <ImageView
+                android:id="@+id/img_maintab_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/maintab_2_uncheck" />
+
+            <TextView
+                android:id="@+id/text_maintab_2"
+                style="@style/WrapWrap"
+                android:layout_marginTop="1dp"
+                android:text="分类"
+                android:textColor="@color/main_text999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            style="@style/Buttom_Item_Style">
+
+            <ImageView
+                android:id="@+id/img_maintab_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/maintab_3_uncheck" />
+
+            <TextView
+                android:id="@+id/text_maintab_3"
+                style="@style/WrapWrap"
+                android:layout_marginTop="1dp"
+                android:text="附近"
+                android:textColor="@color/main_text999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            style="@style/Buttom_Item_Style">
+
+            <ImageView
+                android:id="@+id/img_maintab_4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/maintab_4_uncheck" />
+
+            <TextView
+                android:id="@+id/text_maintab_4"
+                style="@style/WrapWrap"
+                android:layout_marginTop="1dp"
+                android:text="购物车"
+                android:textColor="@color/main_text999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            style="@style/Buttom_Item_Style">
+                <ImageView
+                    android:id="@+id/img_maintab_5"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/maintab_5_uncheck" />
+                <TextView
+                    android:id="@+id/text_maintab_5"
+                    style="@style/WrapWrap"
+                    android:layout_marginTop="1dp"
+                    android:text="我的"
+                    android:textColor="@color/main_text999"
+                    android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<resources>
+
+
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <style name="MyDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@drawable/car_dialog_bg</item>-->
+        <item name="android:windowEnterAnimation">@anim/rotate</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out</item>
+    </style>
+
+
+    <style name="mdialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 无边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+
+
+    <!-- ProgressDialog Style -->
+    <style name="succinct_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+
+    <!-- 这是首页底部条目的样式-->
+    <style name="Buttom_Item_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">LayoutOnclickMethod</item>
+    </style>
+
+
+    <style name="text_999_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_text999</item>
+    </style>
+
+    <style name="text_666_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_text666</item>
+    </style>
+    <style name="text_333_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_text333</item>
+    </style>
+
+
+
+</resources>
