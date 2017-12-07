@@ -96,6 +96,7 @@ public class MainActivity extends BaseActivity {
         switch (layout.getId()) {
             case R.id.layout1:
                 changeLayout(0);
+
                 break;
             case R.id.layout2:
                 changeLayout(1);
